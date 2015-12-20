@@ -1,0 +1,200 @@
+.body{  
+    .index{
+        width: 960px; 
+        margin: 0px auto;
+        .top{
+            h2{
+                background: url("../material/@{imgfile}/h_line.jpg") repeat-x 20px center;
+                p{
+                    background: @white;
+                    width: 90px;
+                    margin: 0;
+                    span{
+                        color: @pink;;
+                    }
+                }
+            }
+        }
+        .blog-list{
+            background: url("../material/@{imgfile}/r_line.jpg") repeat-y right;
+            width: 740px;
+            float: left;
+            margin-bottom: 5px;
+            .item{
+                height: 200px;
+                margin-top: 25px;
+                h4{
+                    margin: 0;
+                    height: 20px;
+                    a{
+                        color: @red;
+                        float: left;
+                    }
+                    i{
+                        background: url("../material/@{imgfile}/ico/new.gif@{img-css-sprite}") no-repeat;
+                        display: none;
+                        height: 11px;
+                        width: 28px;
+                        background-size: contain;
+                        float: left;
+                        margin-left: 50px;
+                    }
+                };
+                .middle{
+                    clear: both;
+                    margin-top: 8px;
+                    figure{
+                        width: 189px;
+                        height: 144px;
+                        float: left;
+                        img{
+                            padding: 4px;
+                            border: @light-grey 1px solid;
+                            width: 181px;
+                            height: 138px;
+                        }
+                    }
+                    .middle-content{
+                        float: left;
+                        width: 536px;
+                        p{
+                            padding: 20px 20px 0px;
+                            color: @font-grey;
+                        }
+                        a{
+                            margin-top: 20px;
+                            margin-right: 10px;
+                            padding: 10px;
+                            background-color: @font-orange;
+                            float: right;
+                            color: @white;
+                            border-radius: 5px;
+                        }
+                    }
+                }
+                .bottom{ 
+                    margin-top: 10px;
+                    float: left;
+                    height: 30px;
+                    width: 720px;
+                    background-color: @back-grey;
+                    i{
+                        background: url("../material/@{imgfile}/ico/time.jpg@{img-css-sprite}") no-repeat;
+                        width: 16px;
+                        height: 14px;
+                        background-size: contain;
+                        display: block;
+                        float: left;
+                        margin-left: 10px;
+                        margin-top: 7px;
+                    }
+                    .left-span{
+                        float: left;
+                        margin-left: 20px;
+                        margin-top: 6px;
+                    }
+                    .right-span{
+                        float: left;
+                        margin-left: 6px;
+                        margin-top: 6px;
+                    }
+                }
+            }
+            .new h4 i{
+                display: block;
+            }
+        }   
+        .right{
+            width: 210px;
+            float: left;
+            h4{
+                font-size: 14px;
+                background: url("../material/@{imgfile}/r_title_bg.jpg") repeat-x 20px center;
+                margin-left: 5px;
+                p{
+                    width: 60px;
+                    background-color: @white;
+                    margin: 0;
+                    span{
+                        color: @yellow;
+                    }
+                }
+            }
+            .weather{
+                margin-top: 5px;
+                .content{
+                    width: 200px;
+                    height: 70px;
+                    padding-top: 20px;
+                    margin-top: 5px;
+                    background: -webkit-gradient(linear, 0 0, 0 100%, from(@linear-light-grey1), to(@linear-light-grey2));
+                    .left-div{
+                        float: left;
+                        width: 98px;
+                        border-right: 1px solid @light-grey;
+                        p{
+                            font-size: 14px;
+                            margin-left: 10px;
+                            font-weight: bold;
+                        }
+                        span{
+                            margin: 5px auto auto 30px;
+                        }
+                    }
+                    .right-div{
+                        float: left;
+                        width: 98px;
+                        i{
+                            display: block;
+                            height: 33px;
+                            width: 32px;
+                            background: url("../material/@{imgfile}/module/weather.jpg") no-repeat transparent;
+                            float: left;
+                        }
+                        .duoyun{
+                            background-position: -9px -8px;
+                        }
+                        .qing{
+                            background-position: -47px -8px;
+                        }
+                        .xiaoyu{
+                            background-position: -87px -8px;
+                        }
+                        .dayu{
+                            background-position: -126px -8px;
+                        }
+                        .shandian{
+                            background-position: -166px -8px;
+                        }
+                        .leizhenyu{
+                            background-position: -47px -52px;
+                        }
+                        .yin{
+                            background-position: -126px -141px;
+                        }
+                        .xiaoxue{
+                            background-position: -47px -97px;
+                        }
+                        .daxue{
+                            background-position: -9px -97px;
+                        }
+                        .con{
+                            float: left;
+                            font-size: 13px;
+                            p{
+                                margin-left: 5px;
+                                span{
+                                    margin-left: 10px;
+                                }
+                            }
+                            span{
+                                margin-left: 14px;
+                                font-size: 13px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
